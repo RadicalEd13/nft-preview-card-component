@@ -4,32 +4,36 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NFT preview card component</title>
-  <link rel="stylesheet" href="./reset.css" >
-  <link rel="stylesheet" href="./style.css" >
-  <link rel="icon" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./images/favicon-32x32.png">
+  <title>nft preview card component</title>
 </head>
 <body>
-  <div class="main-box"> 
-    <img src="./images/image-equilibrium.jpg" alt="equilibrium image">
-    <div class="eyeimg"> <img src="./images/icon-view.svg" alt="eye view"> </div>
-    <h1> Equilibrium #3429 </h1>
-    <h2> Our Equilibrium collection promotes balance and calm. </h2>
+  <div class="container">
+    <div class="box">
+      <img class="rectimg" src="./images/image-equilibrium.jpg" alt="cube rect img">
+      <img class="eyeimg" src="./images/icon-view.svg" alt="eye img">
+    </div>
+    <h1> Equilibrium #3429 </h1> 
+    <h2> Our Equilibrium collection promotes balance and calm.</h2>
     <div class="icons"> 
-      <div> <img src="./images/icon-ethereum.svg" alt="eth icon img"> 0.041 ETH </div>
-      <div> <img src="./images/icon-clock.svg" alt="clock img"> 3 days left </div>
+      <div class="ethicon"> <img src="./images/icon-ethereum.svg" alt="etherium icon"> 0.041 ETH </div>
+      <div class="clockicon"> <img src="./images/icon-clock.svg" alt="clock icon"> 3 days left </div>
     </div>
     <hr>
-    <div class="autor"> <img src="./images/image-avatar.png" alt="autor avatar"> </div>
-    <div class="creation"> Creation of </div>
-    <div class="jules"> Jules Wyvern </div>
-
+    <div class="autor"> 
+      <img class="avatar" src="./images/image-avatar.png" alt="autor avatar img">
+      <h3> Creation of </h3>
+      <h4> Jules Wyvern </h4>
+    </div>
 
 
   </div>
+
   
 </body>
 </html>

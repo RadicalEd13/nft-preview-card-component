@@ -5,10 +5,138 @@
 }
 
 body {
-    font-family: 'Outfit', sans-serif;
-    background-color:#0D192C;
+    font-family: 'Outfit',sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #0D192C;
+}
+
+.container {
+
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;
+    background-color: #15263F;
+    padding: 24px;
+}
+
+.box {
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    position: relative;
+    cursor:pointer;
+    background-color: #00FFF8;
+}
+
+.rectimg {
+    max-width:100%;
+    border-radius: 8px;
+    
+
+}
+
+.eyeimg {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: none;
+
+}
+
+.box:hover .eyeimg {
+    display: block;
+}
+
+.box:hover .rectimg {
+    opacity: 0.5;
+}
+
+h1 {
+    font-family:'Outfit',sans-serif;
+    font-style:normal;
+    font-weight: 600;
+    font-size:22px;
+    line-height:28px;
+    color:white;
+    cursor:pointer;
+    margin:24px 24px 16px 0px;
+}
+
+h1:hover {
+    color:#00FFF8;
+}
+
+h2 {
+    font-family: 'Outfit',sans-serif;
+    font-style:normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color:#8BACD9;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 24px 24px 0;
+}
+.ethicon {
+    font-family: 'Outfit',sans-serif;
+    font-style:normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.16px;
+    color:#00FFF8;
+}
+
+.clockicon {
+    font-family: 'Outfit',sans-serif;
+    font-style:normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.16px;
+    color:#8BACD9;
+    
+}
+
+hr {
+    
+    height: 1px;
+    border-color:#2E405A;
+}
+
+.avatar {
+    width:33px;
+    height: 33px;
+    border:1px solid white;
+    border-radius:50%;
+    margin: 16px 16px 0px 0px;
+}
+
+.autor {
+    display: flex;
+    
+}
+
+h3, h4 {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color:#8BACD9;
+    margin: 22px 5px 0px 0px;
+    
+}
+
+h4 {
+    color:#FFFFFF;
+    cursor: pointer;
+}
+
+h4:hover {
+    color:#00FFF8;
 }
